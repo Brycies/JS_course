@@ -9,7 +9,7 @@
     <p>Rock Paper Scissors</p>
     <button
       onclick="
-     pickComputerMove()
+     pickComputerMove() //calling the function
    
      let result = '';
 
@@ -29,7 +29,7 @@
 
     <button
       onclick="
-     pickComputerMove()
+     pickComputerMove() //calling the function
    
      let result = '';
 
@@ -49,7 +49,7 @@
 
     <button
       onclick="
-      pickComputerMove();
+      pickComputerMove(); //calling the function
 
       let result = '';
 
@@ -71,6 +71,7 @@
       let computerMove = "";
 
       function pickComputerMove() {
+        // creating the function so we can call it back in the above codes.
         const randomNumber = Math.random();
 
         if (randomNumber >= 0 && randomNumber < 1 / 3) {
