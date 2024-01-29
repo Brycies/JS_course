@@ -1,8 +1,8 @@
-// function greet(who) {
-//   console.log("Hello " + who);
-// }
-// greet("Bryson");
-// console.log("Bye Bryson");
+function greet(who) {
+  console.log("Hello " + who);
+}
+greet("Bryson");
+console.log("Bye Bryson");
 
 function chicken() {
   return egg();
