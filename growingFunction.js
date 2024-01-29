@@ -17,7 +17,7 @@ printFarmInventory(7, 11);
 Writing .length after a string expression will give us the length of that
 string. Thus the while loops keep adding zeros in front of the number strings 
 until they are at least three characters long.
-BUT THERE HAS T BE A BETTER WAY.
+BUT THERE HAS TO BE A BETTER WAY.
 */
 
 function printZeroPaddedWithLabel(number, label) {
