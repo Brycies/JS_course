@@ -25,3 +25,26 @@ console.log(neighbor.test("neighbor"));
 A question mark makes a part of a pattern optional, meaning it may
  occur zero times or one time
  */
+
+//grouping subexpressions
+
+let cartoonCrying = /boo+(hoo+)+/i;
+console.log(cartoonCrying.test("Boohoooohoohooo"));
+
+/*
+to use an element like * or + on more than one lement at a time, you 
+have to use parentheses. A part of a regular expression enclosed in parentheses counts
+as a single elemnt as far as the operator following it are concerned.
+
+the first and second +characters apply only to the second 0 in boo and hoo
+respectively. the third + applies to the whole group (hoo+)  matchoing
+one or more sequence like that.
+*/
+
+//Matches and groups
+
+let match = /\d+/.exec("one two 100");
+console.log(match);
+console.log(match.index);
+
+//console.log(1 + 1 === 2 && 10 * 10 > 50);
