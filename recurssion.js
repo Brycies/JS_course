@@ -10,7 +10,7 @@ console.log(power(6, 0));
 /*
 its perfectly OK for a function t call itself as long as it doesn't so oftern
 thatit overflows the stack
-A fucntion that calls itself isknon as recursive.
+A fucntion that calls itself is known as recursive.
 */
 
 function findSolution(target) {
