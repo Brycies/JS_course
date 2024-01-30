@@ -29,3 +29,9 @@ we use two binding one to keep track of our result and one to count
 how often we have multiplies this result by 2. The loop tests whether 
 the second binding has reached 10 yet and if not updates both bindings.
 */
+
+let yourName = "Bryson";
+do {
+  yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName);
